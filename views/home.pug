@@ -1,6 +1,11 @@
 extends layouts/main
+include mixins/videoBlock
 
 block content
-    .videos
-        h1 Video
-        //- 나중에 할것임. 일단 fake data
+	.videos
+		each item in videos
+			+videoBlock({
+				title:item.title,
+				views:item.views,
+				videoFile:item.videoFile
+			})
