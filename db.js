@@ -6,7 +6,7 @@ export const videos = [
     views: 24,
     videoFile: "https://archive.org/download/ElephantsDream/ed_1024_512kb.mp4",
     creators: {
-      id: 121212,
+      id: 12121,
       name: "Seokany",
       email: "seokany@com"
     }
