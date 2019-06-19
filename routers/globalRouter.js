@@ -3,8 +3,8 @@ import routes from "../routes";
 import { home, search } from "../controllers/videoController";
 import {
   getJoin,
-  postJoin,
   getLogin,
+  postJoin,
   postLogin,
   logout
 } from "../controllers/userController";
